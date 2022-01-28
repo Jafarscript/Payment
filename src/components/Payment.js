@@ -6,6 +6,7 @@ import { IoMdNotifications } from "react-icons/io";
 import Card from "./Card";
 import Used from "./Used"
 import Transfer from "./Transfer";
+import Transaction from "./Transaction";
 
 const Payment = () => {
   return (
@@ -31,6 +32,9 @@ const Payment = () => {
         <Card />
         <Used />
         <Transfer />
+      </div>
+      <div className="transaction">
+        <Transaction />
       </div>
     </div>
   );
