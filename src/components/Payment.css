@@ -1,5 +1,64 @@
 .pay{
-    display: flex;
     flex: 0.96;
-    margin-left: 20px;
+    padding: 20px 20px;
+}
+.pay-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.search-area{
+    background: white;
+    position: relative;
+    width: 500px;
+    border-radius: 10px;
+}
+.search-area input{
+    outline: none;
+    border: none;
+    margin: 10px;
+    font-size: 15px;
+}
+.search-btn{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0px 10px;
+    border-radius: 10px;
+    background: blueviolet;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.use{
+    margin-right: 10px;
+}
+
+.user h4{
+    margin: 0;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.notify{
+    position: relative;
+}
+
+.dot{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    z-index: 10;
 }
