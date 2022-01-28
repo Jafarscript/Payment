@@ -1,0 +1,56 @@
+.side-menu{
+  display: flex;
+  flex: 0.04;
+  flex-direction: column;
+  background: #dadbd3;
+  border-radius: 20px;
+  padding: 40px 0px;
+  padding-left: 20px;
+  justify-content: space-between;
+}
+
+.upper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.only{
+  margin-bottom: 70px;
+}
+.upper div{
+  margin-bottom: 30px;
+  padding-right: 10px;
+  position: relative;
+}
+.upper .only{
+  margin-bottom: 40px;
+}
+.line{
+  position: absolute;
+  width: 3px;
+  background: blueviolet;
+  height: 50%;
+  right: 0;
+  top: 6px;
+}
+.dark{
+  background: blueviolet;
+  font-size: 20px;
+  color: azure;
+  text-align: right;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.icon{
+  font-size: 20px;
+  color: blueviolet;
+  text-align: right;
+  padding: 5px;
+  background: white;
+  border-radius: 5px;
+}
+
+.opacity{
+  opacity: 0.5;
+}
