@@ -1,0 +1,28 @@
+.used{
+    display: flex;
+    flex-direction: column;
+    transform: rotateZ(270deg);
+    margin-top: 5px;
+}
+
+.usedAtm{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-right: 30px;
+    align-items: center;
+   -webkit-box-shadow: 1px 13px 20px -4px #000000; 
+   box-shadow: 1px 1px 20px -4px #686666;
+    border-radius: 10px;
+}
+
+.usedAtm img{
+    width: 30px;
+    height: 30px;
+}
+
+.usedAtm span{
+    margin-left: 20px;
+    font-weight: 600;
+}

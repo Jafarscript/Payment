@@ -4,6 +4,8 @@ import { RiSearchLine } from "react-icons/ri";
 import { Avatar } from "@material-ui/core";
 import { IoMdNotifications } from "react-icons/io";
 import Card from "./Card";
+import Used from "./Used"
+import Transfer from "./Transfer";
 
 const Payment = () => {
   return (
@@ -25,7 +27,11 @@ const Payment = () => {
           </p>
         </div>
       </div>
-      <Card />
+      <div className="pay-card">
+        <Card />
+        <Used />
+        <Transfer />
+      </div>
     </div>
   );
 };

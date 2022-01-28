@@ -62,3 +62,8 @@
     right: 0;
     z-index: 10;
 }
+
+.pay-card{
+    display: flex;
+    justify-content: space-between;
+}

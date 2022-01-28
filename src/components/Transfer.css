@@ -1,0 +1,66 @@
+.users img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.head h4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+.icon{
+    color: blueviolet;
+}
+
+.main{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.down{
+    background-color: #dadbd3;
+    padding: 5px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.down input{
+    outline: none;
+    border: none;
+    background-color: #dadbd3;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.visa{
+    color: grey;
+    opacity: 0.5;
+    font-size: 40px;
+}
+
+.arrow-btn{
+     position: absolute;
+    color: white;
+    font-size: 20px;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0px 15px;
+    border-radius: 10px;
+    background: blueviolet;
+}
